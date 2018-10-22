@@ -1,0 +1,85 @@
+html,body{
+    font-family: "Arial", sans-serif;
+    background-color: #E0F2F1;
+}
+.navbar{
+  height: 68px;
+  background-color: #00838F;
+  overflow: hidden;
+}
+.navbar a{
+  float:left;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+  font-size: 17px;
+  list-style: none;
+}
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style: none;
+  float: inherit;
+  display: block;
+}
+.navbar a:hover{
+  background-color: #424242;
+  color: #F5F5F5;
+}
+.container{
+  display: grid;
+}
+
+.container>.container-section{
+  background-color: lightcyan;
+  margin:10px;
+  padding:20px;
+}
+/*
+.sidebar{
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #111;
+  position: fixed;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+*/
+table{
+  border:1px solid black;
+  border-collapse: separate;
+  width: 100%;
+  border-spacing: 0;
+  border-left:0;
+  margin-top:20px;
+}
+tbody>tr:nth-child(odd)>td{
+  background-color:lightgrey;
+}
+tr{
+  border-collapse:separate;
+}
+
+#theDiv{
+  width: 105px;
+  height: 33px;
+  background-color: pink;
+  
+}
+img{
+  height: 500px;
+  width:50%;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+#insertion{
+  width:105px;
+  height:33px;
+  background-color:pink;
+}

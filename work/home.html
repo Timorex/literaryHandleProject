@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>KitanaaLiteraryHandle home page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="work.js" type="text/javascript">  </script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+</head>
+<body onload="init()">
+    <main>
+        <header>
+            <nav class="navbar">
+                <a href="#" onclick="openSlideMenu">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" strock-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" strock-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" strock-width="5"/>
+                    </svg>
+                </a>
+
+                <ul class="navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href='#'>Contact</a></li>
+                </ul>
+            </nav>
+        <div id="slidebar" class="sidebar">
+                        <a href="#" class=btn-close onclick="closeSlideMenu">&times;</a>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Contact</a>
+        </div>
+        
+     </header>
+     <div class=container>
+        <main id="content">
+            <div class="container-section">
+           <h1>this is a literary home page on build.</h1>
+           <button onclick="addxToPage"> let it be </button>
+             </div>
+
+    <div class="container-section">
+<button onclick="buildTable()">Click to build the table!</button>
+<table>
+   <thead>
+     <tr>
+       <th>Given name</th>
+       <th>Family name</th>
+     </tr>
+   </thead>
+   <tbody id="tableContactBody">
+       <tr>
+           <td>emeka</td>
+           <td>amaka</td>
+       </tr>
+    </tbody>
+</table>
+    </div>
+
+    <div class="container-section">
+ <p><button onclick="changeStyle()">changeStyle</button></p>
+ <div id="theDiv">
+     this is div
+ </div>
+
+ <img id="myImage" src="pictures/literary1.jpg">
+ <button onclick="changeImage1()">click here to see another</button>
+ <button onclick="changeImage2()">return image</button>
+    </div>
+
+    <div class="container-section">
+<button onclick="animateMario()">Animate Mario</button>
+<div id="insertion">mario appears</div>
+<img src="https://mainline.i3s.unice.fr/mooc/marioSprite.png" alt="mario pic">
+
+    </div>
+        </main>
+    </div>
+        <footer>
+
+        </footer>
+
+
+</body>
+</html>
